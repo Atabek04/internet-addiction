@@ -1,0 +1,70 @@
+body {
+    background-color: #222831;
+    margin-bottom: 160px;
+}
+
+.card-img-top {
+    width: 100px;
+    margin: auto;
+}
+
+.thank-you {
+    color: #eeeeee;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+}
+
+.card {
+    padding: 20px;
+    background-color: #393e46;
+    color: #eeeeee;
+}
+
+.tick-img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 550px;
+}
+
+.card-row {
+    margin-top: 60px;
+}
+
+.list-items {
+    font-size: 24px;
+}
+
+.survey-img {
+    width: 300px;
+    margin: auto;
+}
+
+.survey-card {
+    margin-top: 40px;
+}
+
+.survey-text {
+    font-size: 30px;
+}
+
+.diagnoz {
+    font-size: 23px;
+}
+
+.speedometr-img {
+    width: 300px;
+    margin: auto;
+}
+
+.diagnoz-card {
+    margin-top: 300px;
+}

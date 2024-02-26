@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Addiction Survey</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <form id="surveyForm" class="px-4">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <p>Интернетке болған тәуелділік деңгейінгізді анықтау үшін келесі сұрақтарға жауап
+                                    беріңіз.</p>
+                            </div>
+                            <hr />
+
+                            <p class="text-center"><strong>Аты-жөніңіз:</strong>
+                            </p>
+                            <div class="form-group mb-4">
+                                <input type="text" class="form-control" id="fullName"
+                                    placeholder="Аты-жөніңізді жазыңыз">
+                            </div>
+
+                            <!-- ========================== Q1 ============================ -->
+                            <hr>
+                            <p class="text-center"><strong>Жасыңыз:</strong>
+                            </p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q1" type="radio" name="q1" value="5">
+                                <label class="form-check-label" for="q1">
+                                    0-17
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q2" type="radio" name="q1" value="5">
+                                <label class="form-check-label" for="q2">
+                                    18-27
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q3" type="radio" name="q1" value="5">
+                                <label class="form-check-label" for="q3">
+                                    28 - 43
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q4" type="radio" name="q1" value="5">
+                                <label class="form-check-label" for="q4">
+                                    44 - 65
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q5" type="radio" name="q1" value="1">
+                                <label class="form-check-label" for="q5">
+                                    65+
+                                </label>
+                            </div>
+
+                            <hr>
+
+                            <!-- ========================== Q2 ============================ -->
+                            <p class="text-center"><strong>Интернетте күніне қанша уақыт өткізесіз?</strong></p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q6" type="radio" name="q2" value="5">
+                                <label class="form-check-label" for="q6">
+                                    1 сағаттан аз
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q7" type="radio" name="q2" value="5">
+                                <label class="form-check-label" for="q7">
+                                    1 - 3 сағат
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q8" type="radio" name="q2" value="5">
+                                <label class="form-check-label" for="q8">
+                                    3 - 6 сағат
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q9" type="radio" name="q2" value="5">
+                                <label class="form-check-label" for="q9">
+                                    6 сағаттан астам
+                                </label>
+                            </div>
+                            <hr>
+
+                            <!-- ========================== Q3 ============================ -->
+                            <p class="text-center"><strong>Интернетті негізінен не үшін пайдаланасыз?</strong></p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q10" type="radio" name="q3" value="5">
+                                <label class="form-check-label" for="q10">
+                                    Оқу немесе жұмыс үшін
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q11" type="radio" name="q3" value="5">
+                                <label class="form-check-label" for="q11">
+                                    Ойын-сауық үшін
+                                </label>
+                            </div>
+                            <hr>
+
+                            <!-- ========================== Q4 ============================ -->
+                            <p class="text-center"><strong>Интернетке қандай девайс арқылы жиі кіресіз?</strong></p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q12" type="radio" name="q4" value="5">
+                                <label class="form-check-label" for="q12">
+                                    Cмартфон немесе планшет арқылы
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q13" type="radio" name="q4" value="5">
+                                <label class="form-check-label" for="q13">
+                                    Компьютер немесе ноутбук арқылы
+                                </label>
+                            </div>
+                            <hr>
+
+                            <!-- ========================== Q5 ============================ -->
+                            <p class="text-center"><strong>Сізде интернетке тәуелділік бар деп ойлайсыз ба?</strong></p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q14" type="radio" name="q5" value="5">
+                                <label class="form-check-label" for="q14">
+                                    Иә
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q15" type="radio" name="q5" value="5">
+                                <label class="form-check-label" for="q15">
+                                    Жоқ
+                                </label>
+                            </div>
+                            <hr>
+
+                            <!-- ========================== Q6 ============================ -->
+                            <p class="text-center"><strong>Интернетке кіре алмаған кезде сізде мазасыздық немесе
+                                    ыңғайсыздық бола ма?</strong></p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q16" type="radio" name="q6" value="5">
+                                <label class="form-check-label" for="q16">
+                                    мүлдем жоқ
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q17" type="radio" name="q6" value="5">
+                                <label class="form-check-label" for="q17">
+                                    аздап
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q18" type="radio" name="q6" value="5">
+                                <label class="form-check-label" for="q18">
+                                    орташа
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q19" type="radio" name="q6" value="5">
+                                <label class="form-check-label" for="q19">
+                                    өте
+                                </label>
+                            </div>
+                            <hr>
+
+                            <!-- ========================== Q7 ============================ -->
+                            <p class="text-center"><strong>Сіз интернетті проблемалардан немесе жағымсыз сезімдерден
+                                    арылудың тәсілі ретінде қолданасыз ба?</strong></p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q20" type="radio" name="q7" value="5">
+                                <label class="form-check-label" for="q20">
+                                    Ешқашан
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q21" type="radio" name="q7" value="5">
+                                <label class="form-check-label" for="q21">
+                                    Сирек
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q22" type="radio" name="q7" value="5">
+                                <label class="form-check-label" for="q22">
+                                    Кейде
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q23" type="radio" name="q7" value="5">
+                                <label class="form-check-label" for="q23">
+                                    Жиі
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" id="q24" type="radio" name="q7" value="5">
+                                <label class="form-check-label" for="q24">
+                                    Әрқашан
+                                </label>
+                            </div>
+                            <hr>
+
+
+
+                        </div>
+                        <div class="card-footer text-end">
+                            <input id="submitBtn" type="button" class="btn btn-primary" value="Submit"
+                                onclick="submitForm()">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/survey.js"></script>
+</body>
+
+</html>
